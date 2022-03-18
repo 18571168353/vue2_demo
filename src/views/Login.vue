@@ -7,7 +7,7 @@
 					<el-input v-model="loginform.phoneNum" auto-complete="false" placeholder="请输入用户名"></el-input>
 				</el-form-item>
 				<el-form-item prop="password">
-					<el-input v-model="loginform.password" type="password" uto-complete="false" placeholder="请输入密码"></el-input>
+					<el-input v-model="loginform.password" show-password uto-complete="false" placeholder="请输入密码"></el-input>
 				</el-form-item>
 				<el-form-item prop="code">
 					<el-input v-model="loginform.code" uto-complete="false" placeholder="请点击图片" style="width: 250px"></el-input>
