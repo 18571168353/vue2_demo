@@ -13,8 +13,7 @@ service.interceptors.request.use(
 		}
 		return config
 	},
-	(error) => {
-	}
+	(error) => {}
 )
 
 // 响应拦截器

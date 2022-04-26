@@ -9,7 +9,9 @@
   "dependencies": {
     "axios": "^0.26.1",
     "core-js": "^3.6.5",
+    "docx-preview": "^0.1.9",
     "element-ui": "^2.15.6",
+    "jszip": "^3.7.1",
     "less": "^4.1.2",
     "less-loader": "^5.0.0",
     "vue": "^2.6.11",

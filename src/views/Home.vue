@@ -38,7 +38,10 @@
 						<el-breadcrumb-item>{{ this.$router.currentRoute.name }}</el-breadcrumb-item>
 					</el-breadcrumb>
 					<template v-if="this.$router.currentRoute.path == '/home'">
-						<div class="homemain">首页内容</div>
+						<div class="homemain">
+							<!-- 首页内容 -->
+							<a href="/static/word/GrandChronicle/滇池保护与治理2017年大事记（送印稿）修改20180330.doc">555</a>
+						</div>
 					</template>
 					<router-view />
 				</el-main>
@@ -64,9 +67,7 @@ export default {
 	},
 	watch: {},
 	created() {},
-	mounted() {
-		console.log(this.user)
-	},
+	mounted() {},
 	methods: {
 		handleCommand(command) {
 			if (command == 'logout') {
